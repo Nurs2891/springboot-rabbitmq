@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/v1/publish
+
+{
+    "id": 3,
+    "firstName": "Diana",
+    "lastName": "Aman"
+}
+
+GET http://localhost:8080/api/v1/publish?message=Hello Nurs
